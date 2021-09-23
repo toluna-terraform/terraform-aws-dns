@@ -6,4 +6,5 @@ Toluna [Terraform module](https://registry.terraform.io/modules/toluna-terraform
   source = "./modules/dns"
   domain = local.env_vars.domain
   records = merge(local.data_records,local.app_records)
-}```
+}
+```
